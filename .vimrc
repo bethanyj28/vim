@@ -1,7 +1,10 @@
 "------------------------------------------------------------------------------
 " Plugins
 
-call plug#begin()
+call plug#begin('~/.vim/plugged')
+" Rust tools
+Plug 'rust-lang/rust.vim'
+" Go tools
 Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 " On-demand loading
 Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeToggle' }
